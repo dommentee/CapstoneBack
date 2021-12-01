@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node-dev ./server.ts"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dommentee/CapstoneBack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dommentee/CapstoneBack/issues"
+  },
+  "homepage": "https://github.com/dommentee/CapstoneBack#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.11",
+    "@types/pg": "^8.6.1"
+  }
+}
